@@ -1,0 +1,9 @@
+task: detect
+mode: val
+model: models/model_before_knife_boost.pt
+data: data.yaml
+imgsz: 640
+device: 0
+workers: 4
+project: runs/compare
+name: before_knife_boost_val

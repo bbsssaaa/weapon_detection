@@ -1,0 +1,8 @@
+task: detect
+mode: export
+model: models/model_after_knife_boost.pt
+format: onnx
+imgsz: 768
+device: 0
+project: exports
+name: after_knife_boost_onnx

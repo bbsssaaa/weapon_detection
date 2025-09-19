@@ -1,0 +1,9 @@
+task: detect
+mode: predict
+model: models/model_before_knife_boost.pt
+source: samples/knife_sample.mp4
+imgsz: 640
+device: 0
+workers: 2
+project: runs/demo
+name: before_knife_boost_knife_demo

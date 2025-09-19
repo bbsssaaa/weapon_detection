@@ -1,0 +1,11 @@
+task: detect
+mode: train
+model: models/model_before_knife_boost.pt
+data: data.yaml
+epochs: 50
+imgsz: 768
+batch: 16
+device: 0
+workers: 4
+project: runs/train
+name: after_knife_boost

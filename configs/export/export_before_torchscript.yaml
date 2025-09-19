@@ -1,0 +1,8 @@
+task: detect
+mode: export
+model: models/model_before_knife_boost.pt
+format: torchscript
+imgsz: 640
+device: 0
+project: exports
+name: before_knife_boost_torchscript
