@@ -41,6 +41,7 @@
 - Python 3.11.9
 - NVIDIA CUDA 11.8
 - NVIDIA драйвер >= 520.xx
+- Microsoft Visual C++ Redistributable 2015–2022
 
 
 <pre>
